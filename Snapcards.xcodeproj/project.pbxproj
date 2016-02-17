@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		5360BDE41C74D935001C1FC7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5360BDE31C74D935001C1FC7 /* AppDelegate.swift */; };
 		5360BDE61C74D935001C1FC7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5360BDE51C74D935001C1FC7 /* ViewController.swift */; };
-		5360BDE91C74D935001C1FC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5360BDE71C74D935001C1FC7 /* Main.storyboard */; };
 		5360BDEB1C74D935001C1FC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5360BDEA1C74D935001C1FC7 /* Assets.xcassets */; };
-		5360BDEE1C74D935001C1FC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5360BDEC1C74D935001C1FC7 /* LaunchScreen.storyboard */; };
 		5360BDF91C74D935001C1FC7 /* SnapcardsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5360BDF81C74D935001C1FC7 /* SnapcardsTests.swift */; };
 		5360BE041C74D935001C1FC7 /* SnapcardsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5360BE031C74D935001C1FC7 /* SnapcardsUITests.swift */; };
+		6B4FE5501C74DDA700673E1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B4FE54E1C74DDA700673E1E /* Main.storyboard */; };
+		6B4FE5531C74DDC200673E1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B4FE5511C74DDC200673E1E /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,9 +37,7 @@
 		5360BDE01C74D935001C1FC7 /* Snapcards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Snapcards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5360BDE31C74D935001C1FC7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5360BDE51C74D935001C1FC7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5360BDE81C74D935001C1FC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5360BDEA1C74D935001C1FC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5360BDED1C74D935001C1FC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5360BDEF1C74D935001C1FC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5360BDF41C74D935001C1FC7 /* SnapcardsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnapcardsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5360BDF81C74D935001C1FC7 /* SnapcardsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapcardsTests.swift; sourceTree = "<group>"; };
@@ -47,6 +45,8 @@
 		5360BDFF1C74D935001C1FC7 /* SnapcardsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnapcardsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5360BE031C74D935001C1FC7 /* SnapcardsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapcardsUITests.swift; sourceTree = "<group>"; };
 		5360BE051C74D935001C1FC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B4FE54F1C74DDA700673E1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ../../../../Desktop/SnapCards/SnapCards/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6B4FE5521C74DDC200673E1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ../../../../Desktop/SnapCards/SnapCards/Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +99,9 @@
 			children = (
 				5360BDE31C74D935001C1FC7 /* AppDelegate.swift */,
 				5360BDE51C74D935001C1FC7 /* ViewController.swift */,
-				5360BDE71C74D935001C1FC7 /* Main.storyboard */,
+				6B4FE54E1C74DDA700673E1E /* Main.storyboard */,
 				5360BDEA1C74D935001C1FC7 /* Assets.xcassets */,
-				5360BDEC1C74D935001C1FC7 /* LaunchScreen.storyboard */,
+				6B4FE5511C74DDC200673E1E /* LaunchScreen.storyboard */,
 				5360BDEF1C74D935001C1FC7 /* Info.plist */,
 			);
 			path = Snapcards;
@@ -229,9 +229,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5360BDEE1C74D935001C1FC7 /* LaunchScreen.storyboard in Resources */,
+				6B4FE5531C74DDC200673E1E /* LaunchScreen.storyboard in Resources */,
 				5360BDEB1C74D935001C1FC7 /* Assets.xcassets in Resources */,
-				5360BDE91C74D935001C1FC7 /* Main.storyboard in Resources */,
+				6B4FE5501C74DDA700673E1E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,18 +293,18 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		5360BDE71C74D935001C1FC7 /* Main.storyboard */ = {
+		6B4FE54E1C74DDA700673E1E /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5360BDE81C74D935001C1FC7 /* Base */,
+				6B4FE54F1C74DDA700673E1E /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		5360BDEC1C74D935001C1FC7 /* LaunchScreen.storyboard */ = {
+		6B4FE5511C74DDC200673E1E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5360BDED1C74D935001C1FC7 /* Base */,
+				6B4FE5521C74DDC200673E1E /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -484,6 +484,7 @@
 				5360BE0A1C74D935001C1FC7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5360BE0B1C74D935001C1FC7 /* Build configuration list for PBXNativeTarget "SnapcardsTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +493,7 @@
 				5360BE0D1C74D935001C1FC7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5360BE0E1C74D935001C1FC7 /* Build configuration list for PBXNativeTarget "SnapcardsUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +502,7 @@
 				5360BE101C74D935001C1FC7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
