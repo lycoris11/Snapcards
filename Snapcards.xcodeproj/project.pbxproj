@@ -12,8 +12,8 @@
 		5360BDEB1C74D935001C1FC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5360BDEA1C74D935001C1FC7 /* Assets.xcassets */; };
 		5360BDF91C74D935001C1FC7 /* SnapcardsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5360BDF81C74D935001C1FC7 /* SnapcardsTests.swift */; };
 		5360BE041C74D935001C1FC7 /* SnapcardsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5360BE031C74D935001C1FC7 /* SnapcardsUITests.swift */; };
-		6B4FE5501C74DDA700673E1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B4FE54E1C74DDA700673E1E /* Main.storyboard */; };
-		6B4FE5531C74DDC200673E1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B4FE5511C74DDC200673E1E /* LaunchScreen.storyboard */; };
+		5376087D1C762D98009E9BBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 537608791C762D98009E9BBB /* LaunchScreen.storyboard */; };
+		5376087E1C762D98009E9BBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5376087B1C762D98009E9BBB /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,8 +45,8 @@
 		5360BDFF1C74D935001C1FC7 /* SnapcardsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnapcardsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5360BE031C74D935001C1FC7 /* SnapcardsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapcardsUITests.swift; sourceTree = "<group>"; };
 		5360BE051C74D935001C1FC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6B4FE54F1C74DDA700673E1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ../../../../Desktop/SnapCards/SnapCards/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		6B4FE5521C74DDC200673E1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ../../../../Desktop/SnapCards/SnapCards/Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5376087A1C762D98009E9BBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5376087C1C762D98009E9BBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +99,9 @@
 			children = (
 				5360BDE31C74D935001C1FC7 /* AppDelegate.swift */,
 				5360BDE51C74D935001C1FC7 /* ViewController.swift */,
-				6B4FE54E1C74DDA700673E1E /* Main.storyboard */,
+				5376087B1C762D98009E9BBB /* Main.storyboard */,
+				537608791C762D98009E9BBB /* LaunchScreen.storyboard */,
 				5360BDEA1C74D935001C1FC7 /* Assets.xcassets */,
-				6B4FE5511C74DDC200673E1E /* LaunchScreen.storyboard */,
 				5360BDEF1C74D935001C1FC7 /* Info.plist */,
 			);
 			path = Snapcards;
@@ -193,6 +193,7 @@
 				TargetAttributes = {
 					5360BDDF1C74D935001C1FC7 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = D6W23L3D4M;
 					};
 					5360BDF31C74D935001C1FC7 = {
 						CreatedOnToolsVersion = 7.2;
@@ -229,9 +230,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6B4FE5531C74DDC200673E1E /* LaunchScreen.storyboard in Resources */,
+				5376087E1C762D98009E9BBB /* Main.storyboard in Resources */,
 				5360BDEB1C74D935001C1FC7 /* Assets.xcassets in Resources */,
-				6B4FE5501C74DDA700673E1E /* Main.storyboard in Resources */,
+				5376087D1C762D98009E9BBB /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,20 +294,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		6B4FE54E1C74DDA700673E1E /* Main.storyboard */ = {
+		537608791C762D98009E9BBB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				6B4FE54F1C74DDA700673E1E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		6B4FE5511C74DDC200673E1E /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6B4FE5521C74DDC200673E1E /* Base */,
+				5376087A1C762D98009E9BBB /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		5376087B1C762D98009E9BBB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5376087C1C762D98009E9BBB /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -399,10 +400,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Snapcards/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = EforEpsilon.Snapcards;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -410,10 +415,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Snapcards/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = EforEpsilon.Snapcards;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
